@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\garri\Documents\sources\Bus-Redundancy-Controller\hardware\BuReCon\busredundancycontroller\busredundancycontroller.sch</source>
+    <date>04/10/2020 22:53:01</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bus redundancy Controller</title>
+        <company/>
+        <rev>Rev. 1</rev>
+        <date>2020-10-04</date>
+        <source>busredundancycontroller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ICE40LP1K-CM36</value>
+      <footprint>UCBGA36_LAT</footprint>
+      <libsource lib="ICE40LP1K-CM36" part="ICE40LP1K-CM36" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7A1221</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>NSR0340HT1G</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NSR0340H-D.PDF</datasheet>
+      <libsource lib="Diode" part="NSR0340HT1G" description="40V 0.25A Schottky Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7AE2B8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7BF5F3</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C10FF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C14C3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7C17A6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D9601</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7D9AF6</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7E14FE</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7E18DD</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7EE438</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP7361C-33E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP7361C.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP7361C-33E" description="1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7FF594</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8062FB</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>+3.3V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F80A04D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AP7361C-12E</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP7361C.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AP7361C-12E" description="1A Low Dropout regulator, positive, 1.2V fixed output, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F811312</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F813A0E</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>5V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F818618</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8A63DE</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B1C8C</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>BLM18SG121TN1D</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Ferrite_Bead_Small" description="Ferrite bead, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8BE8A2</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>1.2V</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D970F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint_Flag">
+      <description>test point (alternative flag-style design)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Flag</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Ferrite_Bead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT48JFILM">
+      <aliases>
+        <alias>NSR0340HT1G</alias>
+        <alias>BAT60A</alias>
+      </aliases>
+      <description>40V 0.35A Small Signal Schottky Diode, SOD-323</description>
+      <docs>www.st.com/resource/en/datasheet/bat48.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT48JFILM</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ICE40LP1K-CM36" part="ICE40LP1K-CM36">
+      <footprints>
+        <fp>UCBGA36_LAT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICE40LP1K-CM36</field>
+        <field name="Footprint">UCBGA36_LAT</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="IOL_2B" type="BiDi"/>
+        <pin num="A2" name="IOT_89" type="BiDi"/>
+        <pin num="A3" name="IOT_84_GBIN1" type="BiDi"/>
+        <pin num="A4" name="VCCIO_0_1" type="power_in"/>
+        <pin num="A5" name="VPP_FAST" type="power_in"/>
+        <pin num="A6" name="VPP_2V5" type="power_in"/>
+        <pin num="B1" name="IOL_2A" type="BiDi"/>
+        <pin num="B2" name="VCC" type="power_in"/>
+        <pin num="B3" name="IOT_85_GBIN0" type="BiDi"/>
+        <pin num="B4" name="IOR_61_GBIN2" type="BiDi"/>
+        <pin num="B5" name="IOR_63" type="BiDi"/>
+        <pin num="B6" name="IOR_64" type="BiDi"/>
+        <pin num="C1" name="IOL_6B_GBIN7" type="BiDi"/>
+        <pin num="C2" name="IOL_6A" type="BiDi"/>
+        <pin num="C3" name="IOT_90" type="BiDi"/>
+        <pin num="C4" name="CDONE" type="unspc"/>
+        <pin num="C5" name="IOR_60_GBIN3" type="BiDi"/>
+        <pin num="C6" name="IOR_65" type="BiDi"/>
+        <pin num="D1" name="IOL_7A_GBIN6" type="BiDi"/>
+        <pin num="D2" name="GND" type="power_in"/>
+        <pin num="D3" name="GND" type="power_in"/>
+        <pin num="D4" name="GND" type="power_in"/>
+        <pin num="D5" name="IOB_47_SS" type="BiDi"/>
+        <pin num="D6" name="IOR_55" type="BiDi"/>
+        <pin num="E1" name="IOL_7B" type="BiDi"/>
+        <pin num="E2" name="IOB_34" type="BiDi"/>
+        <pin num="E3" name="IOB_42_CBSEL0" type="BiDi"/>
+        <pin num="E4" name="IOB_44_SDO" type="BiDi"/>
+        <pin num="E5" name="IOB_46_SCK" type="BiDi"/>
+        <pin num="E6" name="IOR_54" type="BiDi"/>
+        <pin num="F1" name="VCCIO_2_3" type="power_in"/>
+        <pin num="F2" name="IOB_35_GBIN5" type="BiDi"/>
+        <pin num="F3" name="IOB_43_CBSEL1" type="BiDi"/>
+        <pin num="F4" name="CRESET_B" type="unspc"/>
+        <pin num="F5" name="IOB_45_SDI" type="BiDi"/>
+        <pin num="F6" name="VCC_SPI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="SPX2920M3-3.3_SOT223">
+      <aliases>
+        <alias>SPX2920M3-5.0_SOT223</alias>
+        <alias>LT1129-3.3_SOT223</alias>
+        <alias>LT1129-5.0_SOT223</alias>
+        <alias>LM2937xMP</alias>
+        <alias>AP7361C-10E</alias>
+        <alias>AP7361C-12E</alias>
+        <alias>AP7361C-15E</alias>
+        <alias>AP7361C-18E</alias>
+        <alias>AP7361C-25E</alias>
+        <alias>AP7361C-28E</alias>
+        <alias>AP7361C-33E</alias>
+      </aliases>
+      <description>400mA Low drop-out regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.zlgmcu.com/Sipex/LDO/PDF/spx2920.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SPX2920M3-3.3_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="ICE40LP1K-CM36">
+      <uri>C:\Program Files\KiCad\share\kicad\library/ICE40LP1K-CM36.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="D2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="D4"/>
+      <node ref="U1" pin="D3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U3" pin="1"/>
+      <node ref="FB1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="3" name="+1V2">
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="B2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="4" name="USB_Conn_P+">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="5" name="USB_Conn_N-">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="A6"/>
+    </net>
+    <net code="7" name="Net-(C12-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="FB1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(U1-PadA5)">
+      <node ref="U1" pin="A5"/>
+    </net>
+    <net code="10" name="VCCIO_0_1">
+      <node ref="U1" pin="A4"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="F6"/>
+      <node ref="U1" pin="F1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+  </nets>
+</export>
