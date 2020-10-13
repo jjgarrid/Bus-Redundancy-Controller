@@ -1,4 +1,4 @@
-18689931748583678
+18699542514695445
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,6 +2274,13 @@ speaker CUI
 0
 2
 2
+CDFN4_2P5X2_MCH
+DSC1001DI1-033.3333T
+
+
+0
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -51596,6 +51603,20 @@ heatsink
 0
 2
 1
+ICE40LP1K-CM36
+ICE40LP1K-CM36
+
+
+0
+36
+36
+ICE40LP1K-SWG16TR50
+Lattice_Semiconductor-ICE40LP1K-SWG16TR50-Manufacturer_Recommended
+
+
+0
+16
+16
 ICE40LP1KSWG16TR50
 ICE40LP1K-SWG16TR50
 
@@ -81710,3 +81731,24 @@ varistor SIOV
 0
 2
 2
+eec
+FTDI-FT2232HL-Reel-Level_A
+
+
+0
+64
+64
+eec
+FTDI-FT2232HL-Reel-Level_B
+
+
+0
+64
+64
+eec
+FTDI-FT2232HL-Reel-Level_C
+
+
+0
+64
+64

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name CDFN4_2P5X2_MCH)(type KiCad)(uri C:/Users/garri/OneDrive/KicadLibrary/modules/CDFN4_2P5X2_MCH.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri C:/Users/garri/OneDrive/KicadLibrary/modules/eec.pretty)(options "")(descr ""))
+  (lib (name ICE40LP1K-CM36)(type KiCad)(uri C:/Users/garri/OneDrive/KicadLibrary/modules/ICE40LP1K-CM36.pretty)(options "")(descr ""))
+  (lib (name ICE40LP1K-SWG16TR50)(type KiCad)(uri C:/Users/garri/OneDrive/KicadLibrary/modules/ICE40LP1K-SWG16TR50.pretty)(options "")(descr ""))
+  (lib (name ICE40LP1KSWG16TR50)(type KiCad)(uri C:/Users/garri/OneDrive/KicadLibrary/modules/ICE40LP1KSWG16TR50.pretty)(options "")(descr ""))
+)

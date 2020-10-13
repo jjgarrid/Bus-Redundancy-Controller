@@ -1,0 +1,60 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Lattice Semiconductor ICE40LP1K-SWG16TR50
+#
+DEF ICE40LP1K-SWG16TR50 U 0 40 Y Y 4 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "ICE40LP1K-SWG16TR50" 0 300 50 H V L CNN 
+F2 "Lattice_Semiconductor-ICE40LP1K-SWG16TR50-*" 0 400 50 H I L CNN 
+F3 "http://www.latticesemi.com/~/media/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf" 0 500 50 H I L CNN 
+F4 "Manufacturer URL" 0 600 50 H I L CNN "Component Link 1 Description"
+F5 "http://www.latticesemi.com/en" 0 700 50 H I L CNN "Component Link 1 URL"
+F6 "Package Specification" 0 800 50 H I L CNN "Component Link 3 Description"
+F7 "http://www.latticesemi.com/~/media/Documents/DataSheets/PackageDiagrams.pdf" 0 900 50 H I L CNN "Component Link 3 URL"
+F8 "Rev. 02.9" 0 1000 50 H I L CNN "Datasheet Version"
+F9 "64K" 0 1100 50 H I L CNN "Embedded RAM Bits"
+F10 "1280" 0 1200 50 H I L CNN "Logic Cells"
+F11 "Surface Mount" 0 1300 50 H I L CNN "Mounting Technology"
+F12 "16-Ball Wafer-Level Chip Scale Package, Body 1.4 x 1.48 mm, Pitch 0.35 mm" 0 1400 50 H I L CNN "Package Description"
+F13 "Rev. 04.2, 12/2013" 0 1500 50 H I L CNN "Package Version"
+F14 "Tape and Reel" 0 1600 50 H I L CNN "Packing"
+F15 "1" 0 1700 50 H I L CNN "Phase Locked Loops"
+F16 "1.2 V" 0 1800 50 H I L CNN "Supply Voltage"
+F17 "IC" 0 1900 50 H I L CNN "category"
+F18 "15120157" 0 2000 50 H I L CNN "ciiva ids"
+F19 "52ac2e31a6e9c05e" 0 2100 50 H I L CNN "library id"
+F20 "Lattice Semiconductor" 0 2200 50 H I L CNN "manufacturer"
+F21 "WLCSP-16" 0 2300 50 H I L CNN "package"
+F22 "1399310389" 0 2400 50 H I L CNN "release date"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "3D2AB577-2A28-421B-AA04-602A0F0B8FC9" 0 2600 50 H I L CNN "vault revision"
+F25 "yes" 0 2700 50 H I L CNN "imported"
+DRAW
+X HCIOT_0_GBIN_0_1 A2 -100 0 100 L 40 40 1 1 B C
+X HCIOT_1 A4 -100 -100 100 L 40 40 1 1 B 
+X HCIOT_2 B1 -100 -200 100 L 40 40 1 1 B 
+S -1400 100 -200 -500 1 1 0 f
+T 1 -1200 -450 60 1 1 BANK 0
+X IOB_46_SCK C1 -100 -200 100 L 40 40 2 1 B C
+X IOB_45_SDI C2 -100 -100 100 L 40 40 2 1 B 
+X IOB_44_SDO C3 -100 0 100 L 40 40 2 1 B 
+X IOB_47_SS_B D1 -100 -300 100 L 40 40 2 1 B 
+X CRESET_B D2 -100 -700 100 L 40 40 2 1 I 
+X CDONE_IOB_35_GBIN5 D3 -100 -500 100 L 40 40 2 1 B C
+S -1400 100 -200 -800 2 1 0 f
+T 1 -1200 -450 60 2 1 BANK 2
+X IOL_7A_GBIN6 B2 -100 -100 100 L 40 40 3 1 B C
+X IOL_6B_GBIN7 B3 -100 0 100 L 40 40 3 1 B C
+S -1200 100 -200 -500 3 1 0 f
+T 1 -1000 -450 60 3 1 BANK 3
+X VCCIO_1_2_3_SPI_2V5 A1 100 -100 100 R 40 40 4 1 W 
+X VCCIO_0 A3 100 0 100 R 40 40 4 1 W 
+X GND B4 1500 -200 100 L 40 40 4 1 W 
+X VCC C4 100 -300 100 R 40 40 4 1 W 
+X GND D4 1500 -300 100 L 40 40 4 1 W 
+S 200 100 1400 -400 4 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
