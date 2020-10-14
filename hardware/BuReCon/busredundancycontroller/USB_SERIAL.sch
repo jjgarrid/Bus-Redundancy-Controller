@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
+Title "USB & Serial"
 Date ""
 Rev ""
 Comp ""
@@ -515,7 +515,7 @@ F 3 "" H 1900 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2500 7100 0    50   ~ 0
-100 MHz oscillator
+12 MHz oscillator
 $Comp
 L power:GND #PWR051
 U 1 1 5F87ED4D
@@ -1009,4 +1009,9 @@ Wire Wire Line
 	7800 3000 7350 3000
 Text GLabel 7800 2300 2    50   Input ~ 0
 FPGA_SCK
+Text GLabel 4350 6700 3    50   Input ~ 0
+GCLOCK
+Wire Wire Line
+	4350 6700 4350 6150
+Connection ~ 4350 6150
 $EndSCHEMATC

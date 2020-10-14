@@ -479,4 +479,80 @@ Text Notes 8500 6250 0    50   ~ 0
 Test points for configuration tests 
 Text Notes 750  6650 0    39   ~ 0
 If blinks, the configuration memory is being accessed by the FPGA or by the FTDI
+Text GLabel 3850 3800 0    50   Input ~ 0
+GCLOCK
+Text GLabel 9250 2500 2    50   Input ~ 0
+IOB34
+Wire Wire Line
+	7550 2500 9250 2500
+Text GLabel 9250 3700 2    50   Input ~ 0
+IOR63
+Text GLabel 9250 3800 2    50   Input ~ 0
+IOR64
+Text GLabel 9250 3900 2    50   Input ~ 0
+IOR65
+Text GLabel 9250 4000 2    50   Input ~ 0
+IOR55
+Text GLabel 9250 4100 2    50   Input ~ 0
+IOR54
+Wire Wire Line
+	7550 3700 9250 3700
+Wire Wire Line
+	7550 3800 9250 3800
+Wire Wire Line
+	7550 3900 9250 3900
+Wire Wire Line
+	7550 4000 9250 4000
+Wire Wire Line
+	7550 4100 9250 4100
+Text GLabel 9250 3300 2    50   Input ~ 0
+IOL2+
+Text GLabel 9250 3200 2    50   Input ~ 0
+IOL2-
+Wire Wire Line
+	9250 3200 7550 3200
+Wire Wire Line
+	9250 3300 7550 3300
+Text GLabel 9250 3400 2    50   Input ~ 0
+IOL6+
+Text GLabel 4150 2600 0    50   Input ~ 0
+IOL6-
+Wire Wire Line
+	4150 2600 4550 2600
+Wire Wire Line
+	9250 3400 7550 3400
+Text GLabel 9250 3500 2    50   Input ~ 0
+IOL7-
+Wire Wire Line
+	9250 3500 7550 3500
+Text GLabel 4150 2700 0    50   Input ~ 0
+IOL7+
+Wire Wire Line
+	4150 2700 4550 2700
+Text GLabel 3850 2900 0    50   Input ~ 0
+IOR61
+Wire Wire Line
+	3850 2900 4550 2900
+Text GLabel 3850 3000 0    50   Input ~ 0
+IOR60
+Wire Wire Line
+	3850 3000 4550 3000
+Text GLabel 3850 2400 0    50   Input ~ 0
+IOB35
+Wire Wire Line
+	3850 2400 4550 2400
+Text GLabel 4150 3200 0    50   Input ~ 0
+IOT84
+Wire Wire Line
+	4150 3200 4550 3200
+Text GLabel 4150 3700 0    50   Input ~ 0
+IOT89
+Wire Wire Line
+	3850 3800 4550 3800
+Wire Wire Line
+	4150 3700 4550 3700
+Text GLabel 4150 3900 0    50   Input ~ 0
+IOT90
+Wire Wire Line
+	4150 3900 4550 3900
 $EndSCHEMATC
