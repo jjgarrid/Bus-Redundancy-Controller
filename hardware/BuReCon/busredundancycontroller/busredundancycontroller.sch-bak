@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Bus redundancy Controller"
 Date "2020-10-04"
 Rev "Rev. 1"
@@ -37,4 +37,12 @@ F1 "FPGA.sch" 39
 $EndSheet
 Text Notes 2650 2100 0    118  ~ 24
 FPGA
+$Sheet
+S 2250 2750 1300 950 
+U 5F8745B1
+F0 "connectors" 50
+F1 "connectors.sch" 50
+$EndSheet
+Text Notes 2400 3300 0    118  ~ 24
+Connectors
 $EndSCHEMATC
