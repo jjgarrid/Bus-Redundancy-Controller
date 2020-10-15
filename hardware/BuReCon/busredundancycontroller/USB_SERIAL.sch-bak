@@ -514,8 +514,8 @@ F 3 "" H 1900 6150 60  0000 C CNN
 	1    1900 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 2500 7100 0    50   ~ 0
-100 MHz oscillator
+Text Notes 2500 7000 0    50   ~ 0
+12 MHz oscillator
 $Comp
 L power:GND #PWR051
 U 1 1 5F87ED4D
@@ -1014,4 +1014,130 @@ GCLOCK
 Wire Wire Line
 	4350 6700 4350 6150
 Connection ~ 4350 6150
+Text GLabel 7850 4200 2    50   Input ~ 0
+FT_RXD
+Wire Wire Line
+	7350 4200 7850 4200
+$Comp
+L Device:LED_ALT LD?
+U 1 1 5F8D7099
+P 8500 5300
+AR Path="/5F7B6286/5F8D7099" Ref="LD?"  Part="1" 
+AR Path="/5F7E5564/5F8D7099" Ref="LD3"  Part="1" 
+F 0 "LD3" H 8650 5400 50  0000 R CNN
+F 1 "Yellow" H 8650 5200 50  0000 R CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 8500 5300 50  0001 C CNN
+F 3 "~" H 8500 5300 50  0001 C CNN
+	1    8500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R19
+U 1 1 5F8E6A23
+P 8000 5300
+F 0 "R19" V 7900 5300 50  0000 L CNN
+F 1 "100R" V 8100 5250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 5300 50  0001 C CNN
+F 3 "~" H 8000 5300 50  0001 C CNN
+	1    8000 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 5300 8350 5300
+Wire Wire Line
+	7900 5300 7350 5300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F8F87FC
+P 8850 5000
+AR Path="/5F7B6286/5F8F87FC" Ref="#PWR?"  Part="1" 
+AR Path="/5F7E5564/5F8F87FC" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 8850 4850 50  0001 C CNN
+F 1 "+3V3" H 8865 5173 50  0000 C CNN
+F 2 "" H 8850 5000 50  0001 C CNN
+F 3 "" H 8850 5000 50  0001 C CNN
+	1    8850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5300 8850 5300
+Wire Wire Line
+	8850 5300 8850 5000
+Text Notes 8350 5150 0    50   ~ 0
+FPGA Tx
+NoConn ~ 7350 3200
+NoConn ~ 7350 3300
+NoConn ~ 7350 3400
+NoConn ~ 7350 3500
+NoConn ~ 7350 3600
+NoConn ~ 7350 3700
+NoConn ~ 7350 3800
+NoConn ~ 7350 3900
+NoConn ~ 7350 4300
+NoConn ~ 7350 4400
+NoConn ~ 7350 4500
+NoConn ~ 7350 4600
+NoConn ~ 7350 4700
+NoConn ~ 7350 4800
+NoConn ~ 7350 5000
+NoConn ~ 7350 5100
+NoConn ~ 7350 5200
+NoConn ~ 7350 5500
+NoConn ~ 7350 5600
+NoConn ~ 7350 5700
+Text GLabel 7850 4100 2    50   Input ~ 0
+FT_TXD
+Wire Wire Line
+	7850 4100 7350 4100
+$Comp
+L Device:LED_ALT LD?
+U 1 1 5F98A8DA
+P 9500 5450
+AR Path="/5F7B6286/5F98A8DA" Ref="LD?"  Part="1" 
+AR Path="/5F7E5564/5F98A8DA" Ref="LD?"  Part="1" 
+F 0 "LD?" H 9650 5550 50  0000 R CNN
+F 1 "Green" H 9650 5350 50  0000 R CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 9500 5450 50  0001 C CNN
+F 3 "~" H 9500 5450 50  0001 C CNN
+	1    9500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F98A8E0
+P 9000 5450
+F 0 "R?" V 8900 5450 50  0000 L CNN
+F 1 "100R" V 9100 5400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 5450 50  0001 C CNN
+F 3 "~" H 9000 5450 50  0001 C CNN
+	1    9000 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 5450 9350 5450
+Wire Wire Line
+	9650 5450 9850 5450
+Wire Wire Line
+	7550 5400 7550 5450
+Wire Wire Line
+	7550 5450 8900 5450
+Wire Wire Line
+	7350 5400 7550 5400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F996D71
+P 9850 5000
+AR Path="/5F7B6286/5F996D71" Ref="#PWR?"  Part="1" 
+AR Path="/5F7E5564/5F996D71" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9850 4850 50  0001 C CNN
+F 1 "+3V3" H 9865 5173 50  0000 C CNN
+F 2 "" H 9850 5000 50  0001 C CNN
+F 3 "" H 9850 5000 50  0001 C CNN
+	1    9850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 5000 9850 5450
+Text Notes 9350 5300 0    50   ~ 0
+FPGA Rx
 $EndSCHEMATC

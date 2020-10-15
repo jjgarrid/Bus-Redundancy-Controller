@@ -481,16 +481,12 @@ Text Notes 750  6650 0    39   ~ 0
 If blinks, the configuration memory is being accessed by the FPGA or by the FTDI
 Text GLabel 3850 3800 0    50   Input ~ 0
 GCLOCK
-Text GLabel 9250 2500 2    50   Input ~ 0
-IOB34
 Wire Wire Line
 	7550 2500 9250 2500
 Text GLabel 9250 3700 2    50   Input ~ 0
 IOR63
 Text GLabel 9250 3800 2    50   Input ~ 0
 IOR64
-Text GLabel 9250 3900 2    50   Input ~ 0
-IOR65
 Text GLabel 9250 4000 2    50   Input ~ 0
 IOR55
 Text GLabel 9250 4100 2    50   Input ~ 0
@@ -499,8 +495,6 @@ Wire Wire Line
 	7550 3700 9250 3700
 Wire Wire Line
 	7550 3800 9250 3800
-Wire Wire Line
-	7550 3900 9250 3900
 Wire Wire Line
 	7550 4000 9250 4000
 Wire Wire Line
@@ -555,4 +549,10 @@ Text GLabel 4150 3900 0    50   Input ~ 0
 IOT90
 Wire Wire Line
 	4150 3900 4550 3900
+Text GLabel 9650 3900 2    50   Input ~ 0
+FT_RXD
+Wire Wire Line
+	7550 3900 9650 3900
+Text GLabel 9250 2500 2    50   Input ~ 0
+FT_TXD
 $EndSCHEMATC
